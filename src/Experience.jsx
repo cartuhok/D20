@@ -15,7 +15,7 @@ export default function Experience() {
     const [cameraPosition, setCameraPosition] = useState(new THREE.Vector3());
     const [cameraTarget, setCameraTarget] = useState(new THREE.Vector3());
 
-    const texture = useLoader(THREE.TextureLoader, '/texture.jpg');
+    const texture = useLoader(THREE.TextureLoader, './texture.jpg');
 
     const dieType = useStore((state) => state.dieType);
 
