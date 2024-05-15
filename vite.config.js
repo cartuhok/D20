@@ -9,7 +9,7 @@ export default {
     ],
     root: 'src/',
     publicDir: "../public/",
-    base: './',
+    base: '/D20/',
     server:
     {
         host: true,
