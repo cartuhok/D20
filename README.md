@@ -2,6 +2,8 @@
 
 This is a 3D dice roller application built with React, Three.js, and React Three Fiber. It allows users to interact with various types of dice (D20, D6, D4) in a 3D environment. The dice can be rolled by clicking on them, and they will bounce and roll realistically based on physics simulations.
 
+# URL: https://cartuhok.github.io/D20/
+
 ## Features
 
 - Interactive 3D dice rolling simulation
