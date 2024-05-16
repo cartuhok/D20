@@ -22,7 +22,7 @@ const TextureSelector = () => {
   };
 
   return (
-    <div style={{ position: 'absolute', bottom: 10, left: 10 }}>
+    <div style={{ position: 'absolute', bottom: 10, left: 20 }}>
       <div
         onClick={toggleMenu}
         style={{
@@ -33,7 +33,16 @@ const TextureSelector = () => {
           userSelect: 'none'
         }}
       >
-        🎨
+          <img
+            src="./paint-bucket.png"
+            style={{
+              width: '50px',
+              height: '50px',
+              cursor: 'pointer',
+              display: 'block',
+              marginBottom: '5px',
+            }}
+          />
       </div>
       {isOpen && (
         <div
