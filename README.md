@@ -4,7 +4,7 @@ This is a 3D dice roller application built with React, Three.js, and React Three
 
 # URL: https://cartuhok.github.io/D20/
 
-video src="https://i.imgur.com/qOktw7O.mp4" />
+<video src="https://i.imgur.com/qOktw7O.mp4" />
 
 ## Features
 
